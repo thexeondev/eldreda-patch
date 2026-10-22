@@ -1,0 +1,35 @@
+.{
+    .IsLoadMHYBase = 0xCE7250,
+    .@"System.Runtime.InteropServices.Marshal::PtrToStringAnsi" = 0x1D2CBD90,
+    .@"Foundation.Assets::SetLoginSettingByJson" = 0x1E096BE0,
+    .@"MiHoYo.SDK.SDKDelegate.LoadFileDelegate::Invoke" = 0x1D34F270,
+    .sdk_rsa_keys = .{ 0x55A29C0, 0x55A29C8, 0x55A29D8 },
+    .crypto_str = 0x55CDE58,
+    .@"MiHoYo.SDK.DeviceFPManager::GetDeviceFP" = 0x1EF3AE60,
+    .@"System.Security.Cryptography.RSA::Create" = 0x1E0F37C0,
+    .@"System.Security.Cryptography.RSA::FromXmlString" = 0x1E0F3AB0,
+    .static_table = 0x5145258,
+    .@"Foundation.RSAUtil::PublicRsaKey" = 0x36918,
+    .dither_alpha_strings = .{ 0x55AF5D0, 0x55AF5D8 },
+    .@"MoleMole.UIMainCityMiniMenuWidgetController::RefreshGachaTimeIcon" = 0x19A8EC80,
+
+    .@"AvatarBattleTemplateCollection::GetDataByID" = 0x1BA84D60,
+    .@"AvatarBattleTemplate::get_PrefabPath" = 0x1A529ED0,
+    .@"AvatarBattleTemplate::get_ID" = 0x1A52B460,
+
+    .@"NapVirtual3DActionCamera_1::InternalUpdateCameraState" = 0x11A48C40,
+    .@"NapVirtual3DActionCamera_1::UpdateStateStage1" = 0x11A49220,
+    .@"NapVirtual3DActionCamera_1::UpdateStateStage2" = 0x11A492A0,
+    .@"NapVirtual3DActionCamera_1::UpdateStateStage3" = 0x11A493C0,
+    .@"NapVirtual3DActionCamera_1::UpdateStateStage4Partial" = 0x11A4BDD0,
+
+    .character_switch_component_access_in_update = 0x16354A27,
+
+    .@"CharacterModelComponent::GetUnknownMovementVector" = 0x13DCD6B0,
+    .GetUnknownMovementVector_return_address = 0x126A4ECF,
+    .@"CharacterModelComponent.ModelPrefabFullPath" = 272,
+
+    .@"CharacterModelComponent::get_FaceDir" = 0x13DCD670,
+    .@"CharacterModelComponent::get_Position" = 0x13DCEF20,
+    .@"CharacterModelComponent::set_Position" = 0x13DD0B30,
+}

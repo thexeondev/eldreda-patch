@@ -1,0 +1,8 @@
+{
+    "$Type" : "Foundation.LoginSetting",
+    "login_type" : 1,
+    "resource_type" : 2,
+    "dispatch_urls" : [
+        "http://127.0.0.1:12401/query_dispatch"
+    ]
+}
