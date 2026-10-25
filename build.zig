@@ -5,13 +5,13 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
 
     const launcher = b.addExecutable(.{
-        .name = "eldreda",
+        .name = "eldreda-bootstrap",
         .win32_manifest = b.addWriteFiles().add(
             "launcher.manifest",
             @embedFile("win32_manifest.xml"),
         ),
         .root_module = b.createModule(.{
-            .root_source_file = b.path("src/launcher.zig"),
+            .root_source_file = b.path("src/bootstrap.zig"),
             .target = target,
             .optimize = optimize,
         }),

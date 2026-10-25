@@ -26,7 +26,7 @@ pub fn main() void {
     ) == .FALSE)
         fatal(
             \\Failed to create game process.
-            \\Make sure you've placed eldreda.exe in the game directory, near 
+            \\Make sure you've placed eldreda-bootstrap.exe in the game directory, near 
         ++ exe_name, .{});
     defer _ = w.ntdll.NtClose(process_info.hProcess);
 
