@@ -5,7 +5,7 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
 
     const launcher = b.addExecutable(.{
-        .name = "eldreda-bootstrap",
+        .name = "yuzuha-bootstrap",
         .win32_manifest = b.addWriteFiles().add(
             "launcher.manifest",
             @embedFile("win32_manifest.xml"),
@@ -19,7 +19,7 @@ pub fn build(b: *std.Build) void {
     b.installArtifact(launcher);
 
     const dynlib = b.addLibrary(.{
-        .name = "eldreda",
+        .name = "yuzuha",
         .linkage = .dynamic,
         .root_module = b.createModule(.{
             .root_source_file = b.path("src/dynlib.zig"),
